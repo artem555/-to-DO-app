@@ -10,6 +10,7 @@ list.addEventListener('click', function(ev) {
     if (ev.target.tagName === 'li') {
         ev.target.classList.toggle('checked');
     }
+    ev.target.classList.toggle('checked');
 }, false);
 
 //Создание нового элемента из данных в myInput
